@@ -1,0 +1,23 @@
+{
+	"language": "language",
+	"lottery": {
+		"seven": "Seven",
+		"apple": "Apple",
+		"orange": "Orange",
+		"bell": "Bell",
+		"watermelon": "Watermelon",
+		"star": "Star",
+		"melon": "Melon",
+		"bar": "Bar",
+
+		"start": "Strat",
+		"stop": "停止",
+		"check": "Check",
+		"totalCoin": "Total Coin",
+		"usedCoin": "Used Coin",
+		"winCoin": "Win Coin",
+		"message": {
+			"pleaseBetFirst": "Please Bet First!"
+		}
+	}
+}

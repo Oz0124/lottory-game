@@ -1,0 +1,108 @@
+ul {
+    padding: 0;
+    width: 700px;
+    height: 700px;
+
+    li {
+        margin: 0;
+        list-style: none;
+        // width: 14%;
+        // height: 14%;
+        float: left;
+        text-align: center;
+        border: 1px solid #777;
+        box-sizing: border-box;
+        // line-height: 100px;
+        position: relative;
+        color: #333;
+        border-right: 0;
+
+        &.active {
+            background: #f0ad4e;
+            font-size: 20px;
+        }
+        
+        &:nth-child(7) {
+            border-right: 1px solid #777;
+        }
+
+        &:nth-child(8) {
+            border-right: 1px solid #777;
+            border-top: 0;
+        }
+
+        &:nth-child(9) {
+            border-right: 1px solid #777;
+            border-top: 0;
+        }
+
+        &:nth-child(10) {
+            border-right: 1px solid #777;
+            border-top: 0;
+        }
+
+        &:nth-child(11) {
+            border-right: 1px solid #777;
+            border-top: 0;
+        }
+
+        &:nth-child(12) {
+            border-right: 1px solid #777;
+            border-top: 0;
+        }
+
+        &:nth-child(13) {
+            border-right: 1px solid #777;
+            border-top: 0;
+        }
+
+        &:nth-child(14) {
+
+        }
+
+        &:nth-child(15) {
+
+        }
+
+        &:nth-child(16) {
+
+        }
+
+        &:nth-child(17) {
+
+        }
+
+        &:nth-child(18) {
+
+        }
+
+        &:nth-child(19) {
+            border-top: 0;
+        }
+
+        &:nth-child(20) {
+            border-right: 1px solid #777;
+            border-top: 0;
+        }
+
+        &:nth-child(21) {
+            border-right: 1px solid #777;
+            border-top: 0;
+        }
+
+        &:nth-child(22) {
+            border-right: 1px solid #777;
+            border-top: 0;
+        }
+
+        &:nth-child(23) {
+            border-right: 1px solid #777;
+            border-top: 0;
+        }
+
+        &:nth-child(24) {
+            border-right: 1px solid #777;
+            border-top: 0;
+        }
+    }
+}

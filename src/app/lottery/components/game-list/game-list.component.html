@@ -1,0 +1,5 @@
+<ul [style.width] = "itemContainerWidth + 'px'" [style.height] = "itemContainerHeight + 'px'">
+	<li *ngFor="let item of list" [ngClass]="{'active': item.isActive}" [style.width] = "item.itemWidth + 'px'" [style.height] = "item.itemHeight + 'px'" [style.left] = "item.offsetLeft + 'px'" [style.top] = "item.offsetTop + 'px'" [style.bottom] = "item.offsetBottom + 'px'" [style.right] = "item.offsetRight + 'px'">
+		{{item.title}}
+	</li>
+</ul>

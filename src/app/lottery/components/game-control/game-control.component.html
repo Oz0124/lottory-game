@@ -1,0 +1,39 @@
+<div class="wrap">
+    <div class="calculate-box" [style.width] = "calculateBoxWidth + 'px'" [style.height] = "calculateBoxHeight + 'px'" [style.left] = "calculateBoxOffsetLeft + 'px'" [style.top] = "calculateBoxOffsetTop + 'px'">   
+        <button class="btn btn-primary start" (click)="start()" *ngIf="!gameControl.isStart">
+            {{'lottery.start' | translate:param}}
+        </button>
+        <button class="btn btn-danger stop" (click)="stop()" *ngIf="gameControl.isStart && !gameControl.isGet">
+            {{'lottery.stop' | translate:param}}
+        </button>
+        <button class="btn btn-success get" (click)="get()" *ngIf="gameControl.isStart && gameControl.isGet">
+            {{'lottery.check' | translate:param}}
+        </button>
+        <ul>
+            <li>
+                <h5>
+                    {{'lottery.totalCoin' | translate:param}}
+                </h5>
+                <h3 class="count">
+                    {{gameCoin.totalCoin-gameCoin.usedCoin}}
+                </h3>
+                </li>
+            <li>
+                <h5>
+                    {{'lottery.usedCoin' | translate:param}}
+                </h5>
+                <h3 class="count">
+                    {{gameCoin.usedCoin}}
+                </h3>
+            </li>
+            <li>
+                <h5>
+                    {{'lottery.winCoin' | translate:param}}
+                </h5>
+                <h3 class="count">
+                    {{gameCoin.winCoin}}
+                </h3>
+            </li>
+        </ul>
+    </div>
+</div>

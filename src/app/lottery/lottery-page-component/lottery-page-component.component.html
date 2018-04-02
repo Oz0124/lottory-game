@@ -1,0 +1,11 @@
+<div class="lottery-game-container">
+	<div class="game-box">
+		<app-game-control [gameControl]="gameControllerService.gameControl" [gameCoin]="gameCoinService.gameCoin" (playGameEvent)="playGame($event)"
+	    (stopGameEvent)="stopGame($event)" (calculateStartEvent)="calculateStart($event)" (calculateEndEvent)="calculateEnd($event)">
+	    </app-game-control>
+		<app-game-list [list]="gameItemService.list">
+		</app-game-list>
+		<app-game-items [items]="gameItemService.items" (minusCoinEvent)="minusCoin($event)" (plusCoinEvent)="plusCoin($event)">
+		</app-game-items>
+	</div>
+</div>

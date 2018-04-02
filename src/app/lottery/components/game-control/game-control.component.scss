@@ -1,0 +1,56 @@
+.wrap {
+	position: absolute;
+
+	.calculate-box {
+		position: relative;
+
+		button {
+			color: #fff;
+			cursor: pointer;
+			width: 90%;
+			margin-left: 5%;
+		}
+
+		ul {
+			width: 90%;
+			left: 5%;
+			padding: 0;
+			margin: 0 auto;
+
+			li {
+				list-style: none;
+				float: left;
+				width: 33.3%;
+				text-align: center;
+				border: 1px solid #777;
+				box-sizing: border-box;
+
+				&:nth-child(2) {
+					border-right: 0;
+					border-left: 0;
+				};
+
+				.count {
+					background: #222;
+					color: #d9534f;
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+
+.start {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.stop {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.get {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}

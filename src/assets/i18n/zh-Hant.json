@@ -1,0 +1,23 @@
+{
+	"language": "語言",
+	"lottery": {
+		"seven": "幸運7",
+		"apple": "蘋果",
+		"orange": "橘子",
+		"bell": "鈴鐺",
+		"watermelon": "西瓜",
+		"star": "星星",
+		"melon": "甜瓜",
+		"bar": "杯子",
+
+		"start": "開始",
+		"stop": "停止",
+		"check": "結算",
+		"totalCoin": "剩餘代幣",
+		"usedCoin": "已使用代幣",
+		"winCoin": "贏得代幣",
+		"message": {
+			"pleaseBetFirst": "請先下注!"
+		}
+	}
+}
